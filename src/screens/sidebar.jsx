@@ -6,7 +6,7 @@ function Sidebar() {
         {label: "Snack", slug: "discover", icon: "icon-mug"},
         {label: "Special Meal", slug: "cates", icon: "icon-tag"},
         {label: "Dessert", slug: "my-courses", icon: "icon-knife"},
-        {label: "Beverages", slug: "my-courses", icon: "icon-briefcase"}
+        {label: "Beverages", slug: "my-courses", icon: "icon-apple"}
 
     ])
     const [currentPage, setCurrentPage] = useState("/");
@@ -24,9 +24,9 @@ function Sidebar() {
     }
 
 
-    return(<div className="sidebar justify-c rel ">
+    return(<div className="sidebar justify-c rel rgt ">
             
-    <ul className="nav movel rgt">
+    <ul className="nav">
        {navigation}
        </ul>
        </div>)

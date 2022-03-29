@@ -7,14 +7,13 @@
 
     padding: 5rem 5rem;
   }
-  .sidebar .nav li{
-      
-  }
+  
   .sidebar .nav li a{ 
     
     /* align-items: center; */
     padding: 0px 20px;
     margin-bottom: 6px;
+    margin-top: 5px;
   }
   .sidebar .nav li a .ico{
     margin-right: 10px;
@@ -28,7 +27,7 @@
   } 
 
   .sidebar .nav li{
-      border-right: 4px black;
+      border-right: 4px rgb(153, 50, 50);
       color: #fedb1b;
   }
   
@@ -48,6 +47,6 @@
 
   }
 
-  .Navb{
-  
-  }
+ .homepage .part h2 .title {
+   color: aqua;
+ }

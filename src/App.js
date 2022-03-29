@@ -6,21 +6,24 @@ import "./css/App.css";
 // Screens list:-
 import Sidebar from './screens/sidebar';
 import Navbar from './screens/navbar';
+import Base from './screens/base';
 
 function App(){
   return(
-     <div className='App block'>
+     <div className='App inline'>
        <Navbar/>
-     
+       
    <div className='App flex'>
      <Sidebar/>
-     <div className='app-content'>
-     {/* <Homepage/> */}
+     
+     <div className='app flexbox'>
+     {/* <Base/> */}
      </div>
-    
+     
    </div>
 
    </div>
+   
   )
 }
 
