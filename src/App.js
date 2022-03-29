@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./css/uifonts.css";
+import "./css/props.css"
+import "./css/App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Screens list:-
+import Sidebar from './screens/sidebar';
+import Navbar from './screens/navbar';
+
+function App(){
+  return(
+     <div className='App block'>
+       <Navbar/>
+     
+   <div className='App flex'>
+     <Sidebar/>
+     <div className='app-content'>
+     {/* <Homepage/> */}
+     </div>
+    
+   </div>
+
+   </div>
+  )
 }
 
 export default App;

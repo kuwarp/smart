@@ -1,0 +1,53 @@
+.sidebar{
+    width: 300px;
+    
+  }
+
+  .sidebar .nav{
+
+    padding: 5rem 5rem;
+  }
+  .sidebar .nav li{
+      
+  }
+  .sidebar .nav li a{ 
+    
+    /* align-items: center; */
+    padding: 0px 20px;
+    margin-bottom: 6px;
+  }
+  .sidebar .nav li a .ico{
+    margin-right: 10px;
+  }
+  
+  .sidebar .nav li a.on{
+    /* border-left: 2px #fedb1b solid; */
+    color: #fedb1b;
+    
+  
+  } 
+
+  .sidebar .nav li{
+      border-right: 4px black;
+      color: #fedb1b;
+  }
+  
+  .logo{
+
+  }
+
+  .Navb a .logo{
+   background-color: aliceblue;
+  }
+  
+  .Navb .srch{
+
+    border-radius: 20px;
+    margin-left: 70%;
+    text-align: center;
+
+  }
+
+  .Navb{
+  
+  }
